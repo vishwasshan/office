@@ -1,0 +1,735 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ulistinner{
+    display: flex;
+    justify-content: space-between
+}
+.ulist{
+    display: flex;
+}
+.ulistinner > ul > li{
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 30px;
+}
+.ulistinner > ul > li > a{
+   color: black;
+   font-size: 0.9rem;
+   font-weight: bold;
+}
+
+.bookbtn{
+    margin-right: 60px;
+    margin-left: 40px;
+    width: 120px;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid #FACC3F;
+    transition: background-color 1s;
+}
+.bookbtn:hover{
+  background-color: #FACC3F;
+}
+.topNav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.brandLogo{
+    width: 100px;
+    background-color: green;
+    width: 100%;
+    margin-left: 100px
+}
+/* .brandLogo > img{
+    margin-left: 0px;
+    min-width: 200px;
+} */
+
+.center-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-nav > ul{
+    display: flex;
+    justify-content: center;
+}
+.center-nav > ul > li { 
+   list-style: none;
+   padding: 0 20px
+}
+.center-nav > ul > li> a{
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+.center-nav > button{
+    border: 3px solid var(--unnamed-color-ffcc3e);
+    border: 3px solid #FFCC3E;
+    background-color: white;
+    opacity: 1;
+    padding: 10px 40px
+}
+.mainSection{   
+  height: 653px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.text-container{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.text-container > h1{
+text-align: left;
+letter-spacing: 1.17px;
+color: #030047;
+opacity: 1;
+font-size: 4rem;
+font-weight: bold;
+}
+
+.text-container > p{
+    margin-top: 30px;
+    letter-spacing: 0.3px;
+    color: #030047;
+    opacity: 1;
+
+}
+.button-div > button{
+    display: block;
+    margin-top: 30px;
+    width: 300px;
+    padding: 20px 50px;
+    letter-spacing: 1px;
+    background-color: #F7F8FC;
+    border: 2px solid black;
+    margin-left: 15px;
+  
+}
+.extraBtn{
+    border: 2px solid black;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    background-color: #FACC3F;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.button-div{
+    position: relative;
+}
+.image-container{
+    margin-right: 200px;
+}
+.secondContainer{
+    text-align: center;
+
+}
+.secondContainer > h3{
+    padding-top: 70px;
+    font-weight: 700;
+}
+.col-md-4 > .card{
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+
+}
+.col-md-4:nth-child(3){
+    border-right: none;
+}
+.card-body > h2{
+    color: #695FF7;
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.card-body > p{
+    margin-top: 30px;
+    letter-spacing: 0px;
+    color: #030047;
+    opacity: 1;
+    font-size: 0.9rem;
+    letter-spacing: 0.2px;
+}
+
+.middleBtn{
+    margin-top: 50px;
+}
+
+.middleBtn > button{
+  padding: 15px 40px;
+  border: 2px solid #FFCC3E;
+  opacity: 1;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1.17px;
+  color: #030047;
+  text-align: center;
+  font-weight: 800;
+  transition: background-color 1s;
+}
+.middleBtn > button:hover{
+    background-color: #F9C741;
+}
+.growcard{
+    max-width: 1171px;
+    height: 502px;
+    background-color: #F7F8FC;
+    border: none;
+}
+
+.innerbody{
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+}
+.head > h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.head-body{
+    margin-top: 40px;
+}
+.head-body > p{
+    letter-spacing: 1px;
+    color: #030047;
+    opacity: 1;
+    font-size: 1rem;
+}
+.button-div2 {
+    margin-top: 50px;
+    position: relative;
+}
+.button-div2 > button{
+    display: block;
+    width: 300px;
+    padding: 20px 50px;
+    letter-spacing: 1px;
+    background-color: #F7F8FC;
+    border: 2px solid black;
+    margin-left: 20px;
+    position: absolute;
+    top: 0
+   
+}
+.extraBtn2{
+    border: 2px solid black;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    z-index: 100;
+    background-color: #FACC3F;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    z-index: 200;
+    transition: background-color 1s;
+}
+.extraBtn2:hover{
+    background-color: #F9C741;
+}
+.underline{
+    max-width: 170px;
+    border-bottom: 3px solid #FACF4C;
+    margin-bottom: 50px;
+}
+.underline > p{
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1.44px;
+    color: #030047;
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight: bold;
+}
+.webSerive > h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.9rem;
+    letter-spacing: 0;
+    text-align: left;
+}
+.retail{
+        padding: 20px 0;
+        color: #695FF7;
+        text-transform: inherit;
+        letter-spacing: 0;
+}
+.webSerive > h2 > span{
+   color: black;
+   font-size: 1.6rem;
+   letter-spacing: 0;
+   text-transform: inherit;
+}
+.inner-hiccup{
+  margin-top: 60px;
+}
+.inner-hiccup > h2{
+    font-weight: bold;
+    font-size: 1.9rem;
+    letter-spacing: 0;
+}
+.inner-hiccup > p{
+    margin-top: 30px;
+    letter-spacing: 0px;
+    color: #030047;
+    opacity: 1;
+}
+.learn > p{
+    color: #030147;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.row{
+    text-align: center;
+}
+.happyDiv-card{
+height: 640px;
+background: transparent linear-gradient(12deg, var(--unnamed-color-030047) 0%, var(--unnamed-color-695ff7) 100%) 0% 0% no-repeat padding-box;
+background: transparent linear-gradient(12deg, #030047 0%, #695FF7 100%) 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+}
+
+.happyrow{
+    text-align: center;
+
+}
+.happyrow > h2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+.pcolum{
+    margin-top: 60px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+
+}
+.happyrow > button{
+    display: block;
+}
+.howBtn > button{
+    margin-top: 30px;
+    border: 2px solid #F9C741;
+    padding: 13px 30px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    /* transition: background-color 1s; */
+}
+.deimg{
+    margin-top: 90px;
+}
+#minuteId{
+    margin-top: 50px;
+}
+.minute > h2{
+  font-size: 4rem;
+  color: #FACC3F;
+  font-weight: bold;
+}
+.minute{
+    text-align: left !important;
+    color: white;
+}
+.scorein > span{
+    color: white;
+    margin-left: 20px;
+    font-size: 1rem;
+   }
+.scorein{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scorein > h1{
+    font-weight: bold;
+    color: white;
+    text-align: left !important;
+}
+
+.shorttext{
+    margin-top: 80px;
+}
+.shorttext > p{
+    color: #030047;
+    opacity: 1;
+    text-align: left !important;
+}
+.shorttext > h3{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.integrateddiv{
+display: flex;
+justify-content: center;
+align-items: center;
+ margin-top: 250px;
+ height: 300px;
+}
+.integrateddiv-col{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.integrateddiv-col > h3{
+    text-align: left;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.integrateddiv-col > p{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.integrateddiv-col > button{
+    margin-top: 40px;
+    padding: 15px 0; 
+    border: 2px solid #FAD561;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: left;
+    max-width: 200px;
+    text-align: center;
+    transition: background-color 1s;
+}
+.integrateddiv-col > button:hover{
+  background-color: #F9C741;
+}
+
+.connections-div{
+    border: 2px dashed #AAAAAA;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 40px;
+}
+.coliiner{
+    width: 200px;
+}
+.coliiner > p{
+letter-spacing: 1.44px;
+color: #AAAAAA;
+text-transform: uppercase;
+opacity: 1;
+}
+.hundreed{
+    margin-top: 200px;
+}
+
+.hundreednner > h2{
+ text-align: center;
+ font-weight: bold;
+ font-size: 2.5rem;
+}
+.imgsectioncard{
+    height: 100px;
+}
+.imgsection > .card{
+    height: 100%;
+    width: 100%;
+}
+.imgg{
+    width: 100%;
+    height: 100%;
+}
+
+.sbtndiv{
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sbtndiv > button{
+    padding: 15px 80px;
+    border: 1px solid #FACC3F;
+    background-color: white;
+    letter-spacing: 1px;
+    margin-top: 50px
+}
+
+.imgsection > .col-md-2{
+    min-width: 150px;
+}
+
+#innerfooter > h1{
+    margin-top: 20px;
+}
+#happdiv2{
+    height: 500px
+}
+.lastinner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.lastcard{
+    background-color: #030147;
+    border: none;
+}
+.lastcardbody > p{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    color: white;
+}
+.lastcardbody > h3{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.lastul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between
+}
+.lastul > li{
+    list-style: none;
+    
+}
+.lastimg{
+    text-align: right;
+}
+.lastimg > p{
+    color: white;
+    margin-top: 20px;
+}
+.innerlast > .row{
+    margin-top: 200px;
+}
+#deimg{
+    margin-top: 400px;
+}
+
+#happydiv{
+    position: relative;
+}
+.designimg{
+ position: absolute;
+ top: 85%;
+ left: 75%;
+}
+
+@media screen and (max-width: 557px) {
+   .designimg{
+       display: none;
+   }
+     
+   }
+@media screen and (max-width: 689px) {
+   .secondContainer{
+       margin-top: 70px;
+   }
+  .text-container{
+      margin-left: auto;
+      margin-right: auto;
+  }
+    
+  }
+
+@media screen and (max-width: 767px) {
+    .happyDiv-card{
+        height: 1000px;
+    }
+    .lastcardbody{
+        width: 100%;
+        text-align: center;
+    }
+    .lastcardbody > h3{
+        text-align: center;
+    }
+    .lastcardbody > p{
+        text-align: center;
+    }
+    .innerlast > .row{
+        margin-top: 0px;
+    }
+    .growcard{
+        margin-top: 400px;
+    }
+    .shorttext{
+        width: 80%;
+    }
+ .connections-div{
+     margin-top: 50px;
+     margin-bottom: 50px;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+.imgsection > .col-md-2{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sbtndiv > button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.integrateddiv-col > button{
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    margin-top: 10px;
+}
+.integrateddiv-col > p{
+    margin-top: 20px;
+}
+
+.designimg{
+    top: 93%;
+    left: 100%;
+    height: 100px;
+}
+
+
+
+
+
+
+
+    
+  }
+
+@media screen and (max-width: 992px) {
+    .growcard-div{
+        margin-top: 100px;
+    }
+    #happdiv2{
+        height: 600px;
+    }
+    .innerlast{
+        margin-top: 300px;
+    }
+    .innerlast > .row{
+        margin-top: 0px;
+    }
+    .designimg{
+        left: 60%;
+    }
+  }
+  
+  @media screen and (max-width: 1420px) {
+    .mainSection{
+        height: 900px
+    }
+  }
+  @media screen and (max-width: 1010px) {
+   /* .text-container > h1{
+       font-size: 2rem;
+   } */
+   .text-container{
+       text-align: center;
+       margin-top: 100px;
+       min-width: 300px;
+   }
+   .button-div{
+       margin-left: auto;
+       margin-right: auto;
+   }
+   
+  }
+
+  .lastinner{
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    height: 800px;
+
+}
+#deimg{
+    margin-top: 20px;
+}
+.happyrow > h2{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1205px) {
+    header{
+        display: none;
+    }
+    .happyDiv-card{
+        height: 700px;
+    }
+    .line{
+        width: 30px;
+        height: 2px;
+        background-color: black;
+        margin-top: 8px;
+    }
+    .mainSection{
+        margin-top: 0;
+    }
+    .hamberger{
+        position: absolute;
+        top: 2%;
+        left: 2%;
+        
+    }
+    .ham{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+
+   
+  }
