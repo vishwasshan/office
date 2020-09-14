@@ -1,0 +1,433 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav img {
+  width: 170px;
+}
+
+.nav .ulist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+}
+
+.nav .ulist li {
+  margin: 0 20px;
+  list-style: none;
+}
+
+.nav .ulist li a {
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+  font-size: 13px;
+}
+
+.nav .bookbtn {
+  border: 1px solid #ffcc3e;
+  height: 50px;
+  width: 150px;
+  border-width: 3px;
+  font-size: 13px;
+  letter-spacing: 1.17px;
+  background: transparent;
+  color: #030047;
+  font-weight: 700;
+}
+
+.banner {
+  font-family: 'Inter',sans-serif;
+  color: #030047;
+  line-height: 1.5;
+  font-size: 17px;
+  height: auto;
+  padding: 80px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.banner .text-container {
+  margin: 0px 10px;
+  width: 50%;
+  min-width: 400px;
+}
+
+.banner .text-container h1 {
+  color: #030047;
+  font-size: 3rem;
+  line-height: 50px;
+  font-weight: 800;
+  font-family: 'Inter',sans-serif;
+}
+
+.banner .text-container p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 40px;
+}
+
+.banner .text-container .button-div1 {
+  width: 220px;
+  height: 45px;
+  border: 2px solid black;
+  background-color: #ffcc3e;
+  position: relative;
+  left: 10px;
+  top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #030047;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.banner .text-container .button-div2 {
+  width: 220px;
+  height: 45px;
+  border: 2px solid black;
+}
+
+.banner .image-container {
+  margin: 0px 10px;
+  width: 40%;
+  min-width: 350px;
+}
+
+.banner .image-container img {
+  width: 80%;
+}
+
+.secondContainer {
+  background-color: white;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.secondContainer .heading {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondContainer .heading h3 {
+  font-weight: 650;
+}
+
+.secondContainer .card-section .card1 {
+  border: none;
+}
+
+.secondContainer .card-section .card {
+  margin: 0 20px;
+  height: 150px;
+  min-width: 250px;
+  border-top: none;
+  border-bottom: none;
+}
+
+.secondContainer .card-section .card h2 {
+  color: #695ff7;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.secondContainer .card-section .card p {
+  color: #030047;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.secondContainer button {
+  font-size: 13px;
+  letter-spacing: 1.17px;
+  line-height: 17px;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #030047;
+  background: transparent;
+  border: 2px solid #ffcc3e;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.growcard-div {
+  height: 502px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.growcard-div .growcard {
+  width: 80%;
+  padding-left: 0;
+  margin: 0;
+  background-color: #F7F8FC;
+  border: none;
+  padding: 60px 0;
+}
+
+.growcard-div .growcard .innerbody {
+  margin-left: 70px;
+}
+
+.growcard-div .growcard h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.growcard-div .growcard p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #030047;
+  line-height: 30px;
+  margin-top: 25px;
+}
+
+.growcard-div .growcard button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: 2px solid  #FFCC3E;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #030047;
+  background: transparent;
+}
+
+.container3 .service {
+  margin-top: 50px;
+}
+
+.container3 .underline {
+  max-width: 170px;
+  border-bottom: 3px solid #FACF4C;
+  margin-bottom: 50px;
+}
+
+.container3 .underline p {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.44px;
+  color: #030047;
+  text-transform: uppercase;
+  opacity: 1;
+  font-weight: bold;
+  width: 200px;
+}
+
+.container3 h2 {
+  color: black;
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.container3 .newAddedImg {
+  width: 100%;
+  height: 320px;
+}
+
+.container3 .inner-hiccup {
+  margin-top: 50px;
+}
+
+.container3 p {
+  color: #030047;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.container3 .innerp {
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#happydiv {
+  position: relative;
+}
+
+#happydiv .card {
+  height: auto;
+  background: transparent linear-gradient(12deg, var(--unnamed-color-030047) 0%, var(--unnamed-color-695ff7) 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(12deg, #030047 0%, #695FF7 100%) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  padding-bottom: 80px;
+}
+
+#happydiv .happyrow {
+  text-align: center;
+}
+
+#happydiv .happyrow h2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#happydiv .happyrow .pcolum {
+  margin-top: 60px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+#happydiv .happyrow button {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #F9C741;
+  padding: 13px 30px;
+  color: white;
+  background: transparent;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  /* transition: background-color 1s; */
+}
+
+#happydiv #minuteId {
+  margin-top: 50px;
+}
+
+#happydiv #minuteId h2 {
+  font-size: 4rem;
+  color: #FACC3F;
+  font-weight: bold;
+}
+
+#happydiv #minuteId p {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  margin-left: 10px;
+}
+
+#happydiv #minuteId .score .scorein {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#happydiv #minuteId .score .scorein h1 {
+  font-weight: bold;
+  color: white;
+  text-align: left !important;
+}
+
+#happydiv #minuteId .score .scorein span {
+  color: white;
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+#happydiv .designimg {
+  position: absolute;
+  top: 85%;
+  left: 75%;
+}
+
+#deimg {
+  margin-top: 200px;
+}
+
+#deimg img {
+  width: 60px;
+}
+
+#deimg .shorttext {
+  margin-left: 10px;
+}
+
+#deimg .shorttext p {
+  color: #030047;
+  opacity: 1;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+#deimg .shorttext h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #030047;
+}
+/*# sourceMappingURL=style2.css.map */
